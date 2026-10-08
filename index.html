@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Inscrição de Graduados</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="brand">GRADUADOS <span>2026</span></div><a href="#inscricao">Fazer inscrição</a></header>
+<main>
+<section class="hero"><div><p class="eyebrow">FOTOGRAFIA • VÍDEO • GRADUAÇÃO</p><h1>Registe-se para a sua sessão de fotografia e vídeo</h1><p>Preencha os seus dados, escolha o serviço e envie o comprovativo de pagamento pelo WhatsApp.</p><a class="btn" href="#inscricao">FAZER MINHA INSCRIÇÃO</a></div><div class="hero-card">🎓<strong>Momento da sua graduação</strong><span>Registe os seus dados com segurança.</span></div></section>
+<section id="inscricao" class="form-wrap"><div class="card"><h2>Dados do graduado</h2><p class="muted">Preencha todos os campos para concluir a inscrição.</p>
+<form id="form">
+<label>Nome completo<input name="name" required></label>
+<label>Número de telefone<input name="phone" required></label>
+<label>Instituição<input name="institution" required></label>
+<label>Curso<input name="course"></label>
+<div class="grid"><label>Província<input name="province" required></label><label>Distrito<input name="district" required></label></div>
+<label>Bairro<input name="neighborhood" required></label>
+<label>Serviço / pacote<select name="package" required><option value="">Selecione</option><option>Fotografia</option><option>Vídeo</option><option>Fotografia + Vídeo</option></select></label>
+<label>Valor pago (MT)<input name="amount" type="number" min="0" required></label>
+<div class="payment"><b>Número para pagamento</b><strong id="paymentNumber">COLOQUE O NÚMERO DE PAGAMENTO</strong><button type="button" id="copy">Copiar número</button></div>
+<button class="btn full" type="submit">CONFIRMAR E ENVIAR COMPROVATIVO</button>
+</form></div></section>
+</main>
+<footer>© 2026 Serviço de Fotografia e Vídeo para Graduados</footer>
+<script src="app.js"></script>
+</body></html>
