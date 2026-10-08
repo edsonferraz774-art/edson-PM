@@ -1,27 +1,14 @@
-<!doctype html>
-<html lang="pt">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Inscrição de Graduados</title><link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header><div class="brand">GRADUADOS <span>2026</span></div><a href="#inscricao">Fazer inscrição</a></header>
-<main>
-<section class="hero"><div><p class="eyebrow">FOTOGRAFIA • VÍDEO • GRADUAÇÃO</p><h1>Registe-se para a sua sessão de fotografia e vídeo</h1><p>Preencha os seus dados, escolha o serviço e envie o comprovativo de pagamento pelo WhatsApp.</p><a class="btn" href="#inscricao">FAZER MINHA INSCRIÇÃO</a></div><div class="hero-card">🎓<strong>Momento da sua graduação</strong><span>Registe os seus dados com segurança.</span></div></section>
-<section id="inscricao" class="form-wrap"><div class="card"><h2>Dados do graduado</h2><p class="muted">Preencha todos os campos para concluir a inscrição.</p>
-<form id="form">
-<label>Nome completo<input name="name" required></label>
-<label>Número de telefone<input name="phone" required></label>
-<label>Instituição<input name="institution" required></label>
-<label>Curso<input name="course"></label>
-<div class="grid"><label>Província<input name="province" required></label><label>Distrito<input name="district" required></label></div>
-<label>Bairro<input name="neighborhood" required></label>
-<label>Serviço / pacote<select name="package" required><option value="">Selecione</option><option>Fotografia</option><option>Vídeo</option><option>Fotografia + Vídeo</option></select></label>
-<label>Valor pago (MT)<input name="amount" type="number" min="0" required></label>
-<div class="payment"><b>Número para pagamento</b><strong id="paymentNumber">COLOQUE O NÚMERO DE PAGAMENTO</strong><button type="button" id="copy">Copiar número</button></div>
-<button class="btn full" type="submit">CONFIRMAR E ENVIAR COMPROVATIVO</button>
-</form></div></section>
-</main>
-<footer>© 2026 Serviço de Fotografia e Vídeo para Graduados</footer>
-<script src="app.js"></script>
-</body></html>
+<!doctype html><html lang="pt"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Memórias de Graduação</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="logo">MOMENTOS<span>+</span></div><a href="#formulario">Inscrever-me</a></header>
+<section class="hero"><div class="hero-copy"><span class="tag">FOTOGRAFIA • VÍDEO • GRADUAÇÃO</span><h1>Transforme a sua graduação em memórias para toda a vida.</h1><p>Faça a sua inscrição para a sessão de fotografia e vídeo. Preencha os dados e, no final, envie o comprovativo de pagamento pelo WhatsApp.</p><a class="primary" href="#formulario">FAZER MINHA INSCRIÇÃO →</a></div><div class="visual"><div class="cap">🎓</div><b>O seu grande momento<br>merece ser registado.</b></div></section>
+<section class="benefits"><div><b>01</b><h3>Registo profissional</h3><p>Fotografias e vídeos preparados para celebrar a sua conquista.</p></div><div><b>02</b><h3>Inscrição simples</h3><p>Preencha os seus dados em poucos minutos.</p></div><div><b>03</b><h3>Atendimento</h3><p>A nossa equipa recebe os seus dados e comprovativo.</p></div></section>
+<section id="formulario" class="form-section"><div class="form-card"><span class="tag">INSCRIÇÃO</span><h2>Reserve a sua sessão</h2><p>Informe os seus dados corretamente.</p><form id="form">
+<label>Nome completo *<input name="name" required placeholder="Seu nome completo"></label>
+<div class="two"><label>Telefone *<input name="phone" required placeholder="84/85/86..."></label><label>Curso<input name="course" placeholder="Seu curso"></label></div>
+<label>Instituição *<input name="institution" required placeholder="Nome da instituição"></label>
+<div class="two"><label>Província *<input name="province" required></label><label>Distrito *<input name="district" required></label></div>
+<label>Bairro *<input name="neighborhood" required></label>
+<label>Escolha o pacote *<select name="package" required><option value="">Selecione o pacote</option><option>Fotografia</option><option>Vídeo</option><option>Fotografia + Vídeo</option></select></label>
+<label>Valor pago (MT) *<input name="amount" type="number" min="1" required placeholder="Ex.: 1500"></label>
+<div class="pay"><span>Número para pagamento</span><strong id="paymentNumber">A DEFINIR</strong><button type="button" id="copy">COPIAR</button><small>Depois do pagamento, envie o comprovativo pelo WhatsApp.</small></div>
+<button class="primary full" type="submit">ENVIAR INSCRIÇÃO PELO WHATSAPP →</button></form></div></section><footer>© 2026 Momentos+ • Fotografia e Vídeo</footer><script src="app.js"></script></body></html>
